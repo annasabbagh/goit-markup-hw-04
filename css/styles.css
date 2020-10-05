@@ -156,6 +156,8 @@ img {
 
 /* ====== HERO ====== */
 .hero {
+    margin: 0 auto;
+    max-width: 1600px;
     background-color: #2F303A;
     background:
         linear-gradient(
@@ -569,7 +571,8 @@ img {
     margin-right: 30px
 }
 
-.portfolio-projects-list-item:hover{
+.portfolio-projects-list-link:hover,
+.portfolio-projects-list-link:focus {
     box-shadow: 
         0px 1px 1px rgba(0, 0, 0, 0.12), 
         0px 4px 4px rgba(0, 0, 0, 0.06), 
