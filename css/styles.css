@@ -6,6 +6,7 @@
     --description-color: #757575;
     --main-light-theme-color:#FFFFFF;
     --buttons-bg-color:#F5F4FA;
+    --icons-color: #AFB1B8;
 }
 
 *,
@@ -372,7 +373,7 @@ img {
 }
 
 .our-team-social-icon{
-    fill: #AFB1B8;
+    fill: var(--icons-color);
 }
 /* ====== END-OUR-TEAM ====== */
 
@@ -392,7 +393,7 @@ img {
 }
 
 .our-clients-link{
-    border: 1px solid #AFB1B8;
+    border: 1px solid var(--icons-color);
     width: 170px;
     height: 90px;
     border-radius: 4px;
@@ -402,7 +403,7 @@ img {
 }
 
 .our-clients-icon{
-    fill: #AFB1B8
+    fill: var(--icons-color)
 }
 .our-clients-link:hover {
     border-color: var(--accent-color);
@@ -569,6 +570,10 @@ img {
 }
 .portfolio-projects-list-item:not(:nth-child(3n+3)) {
     margin-right: 30px
+}
+
+.portfolio-projects-list-link{
+    display: block;
 }
 
 .portfolio-projects-list-link:hover,
